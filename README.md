@@ -11,7 +11,7 @@ The "game" takes place on a 2D grid which consists of "alive" and "dead" cells, 
 
 -Reproduction: A dead cell becomes alive if the number of surrounded alive cells are exactly 3.
 
-In our implementation, we model the 2D grid with a sparse matrix as in general the dimensions of  gris is not important. The important thing is the number of the alive cells and their location. So, an sparse matrix can be a good data structure. Besides, it is suit for our processing.
+In this implementation, I model the 2D grid with a sparse matrix as in general the dimensions of  gris is not important. The important thing is the number of the alive cells and their location. So, an sparse matrix can be a good data structure. Besides, it is suit for our processing. 
 
 So obviously, in each iteration the early task is to find the status of surrounding cells in terms of total number of alive cells. This task is done in surrounding_matrix_calculator(M)
 
